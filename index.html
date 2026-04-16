@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/lcn1enl.css"/>
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Catch The Insect</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>catch the insect</h1>
+      <button class="btn" id="start-btn">play</button>
+    </div>
 
+    <div class="screen">
+      <h1>what is your "favorite" insect?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn beetle">
+            <p>beetle</p>
+            <img src="beetle.png" alt="beetle">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn moth">
+            <p>moth</p>
+            <img
+               src="moth.png"
+               alt="moth"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn spider">
+            <p>spider</p>
+            <img
+               src="spider.png"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn ladybug">
+            <p>ladybug</p>
+            <img
+               src="ladybug.png"
+               alt="ladybug"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">time: 00:00</h3>
+      <h3 id="score" class="score">score: 0</h3>
+      <h5 id="message" class="message">
+        are you done yet? <br>
+        you are playing an impossible game.
+      </h5>
+    </div>
+  </body>
+</html>
